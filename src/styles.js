@@ -1,4 +1,3 @@
-import { CardMedia } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -26,6 +25,11 @@ const useStyles = makeStyles((theme) => ({
   cardContent: {
     flexGrow: 1,
   },
+  footer:{
+    backgroundColor:
+      theme.palette.background.paper,
+    padding: '50px 0'
+  }
 }));
 
 export default useStyles;
